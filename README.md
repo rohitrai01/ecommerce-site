@@ -49,9 +49,9 @@ A full-featured e-commerce web application built with **Django**. It supports pr
 
 ## Tech Stack
 
-- **Backend:** Django (Python)
-- **Database:** SQLite by default; PostgreSQL via Amazon RDS in the Elastic Beanstalk environment (auto-detected from `RDS_*` env vars)
-- **Static/media storage:** Amazon S3 (`django-storages`, `boto3`) — **required**, not optional, even for local development
+- **Backend:** Django 3.1 (Python)
+- **Database:** SQLite by default; PostgreSQL via Amazon RDS in the Elastic Beanstalk environment (auto-detected from `RDS_*` env vars — see below)
+- **Static/media storage:** Amazon S3 (`django-storages`, `boto3`) — **required**, not optional, even for local development (see note below)
 - **Image handling:** Pillow
 - **Config management:** `python-decouple` (`.env` file)
 - **Deployment:** AWS Elastic Beanstalk
