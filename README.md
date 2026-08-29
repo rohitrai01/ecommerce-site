@@ -116,6 +116,4 @@ Since `django-admin-honeypot` is installed, the default `/admin/` URL serves a d
 
 
 
----
 
-*This README was generated based on the project's `manage.py`, `requirements.txt`, `.env-sample`, and `data.json` fixture. Update the sections above (features, structure, license) with any project-specific details not reflected in these files.*
